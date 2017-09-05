@@ -13,7 +13,7 @@ class MyText extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    myText: state.MyButtonReducer.text
+    myText: state.LoginReducer.text
   }
 }
 
